@@ -26,7 +26,7 @@
     "type": "git",
     "url": "git+https://github.com/kshirbhate/redux-form-ant-design.git"
   },
-  "homepage": "https://www.npmjs.com/package/redux-form-ant-design#readme",
+  "homepage": "https://github.com/kshirbhate/redux-form-ant-design#readme",
   "keywords": [
     "react",
     "redux",
