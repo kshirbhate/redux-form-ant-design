@@ -41,6 +41,7 @@ var FieldDecorations = function FieldDecorations(props) {
   }, _react["default"].createElement(ReduxFormFieldWrapper, Object.assign({
     htmlFor: id
   }, props, props.input, {
+    format: props.dateFormat,
     value: value,
     error: touched ? error : null
   })));

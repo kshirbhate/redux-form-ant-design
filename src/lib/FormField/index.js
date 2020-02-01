@@ -20,7 +20,7 @@ export const FieldDecorations = props => {
   const value = props.fieldType === 'slider' && props.range ? (Array.isArray(props.input.value) ? props.input.value : [0]) : props.input.value;
   return (
     <FormGroup className={props.className}>
-      <ReduxFormFieldWrapper htmlFor={id} {...props} {...props.input} value={value} error={touched ? error : null} />
+      <ReduxFormFieldWrapper htmlFor={id} {...props} {...props.input} format={props.dateFormat} value={value} error={touched ? error : null} />
     </FormGroup>
   );
 };
